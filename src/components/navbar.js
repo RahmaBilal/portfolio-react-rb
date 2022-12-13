@@ -4,100 +4,67 @@ import envelope from "../assets/images/envelope.svg";
 import github from "../assets/images/github.svg";
 import twitter from "../assets/images/twitter.svg";
 import linkedin from "../assets/images/linkedin.svg";
-import { BrowserRouter as Router } from "react-router-dom";
 
 export const Navbar = () => {
-  const [activeLink, setActiveLink] = useState("home");
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", onScroll);
-
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
-
-  const onUpdateActiveLink = (value) => {
-    setActiveLink(value);
-  };
-
   return (
-    <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container>
-          <Navbar.Brand href="/">
-            <h2 className="light">PORTFOLIO</h2>
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link
-                href="#home"
-                className={
-                  activeLink === "home" ? "active navbar-link" : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("home")}
-              >
-                Home
-              </Nav.Link>
-              <Nav.Link
-                href="#skills"
-                className={
-                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("skills")}
-              >
-                About Me
-              </Nav.Link>
-              <Nav.Link
-                href="#projects"
-                className={
-                  activeLink === "projects"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("projects")}
-              >
-                Portfolio
-              </Nav.Link>
-              <Nav.Link
-                href="#contacts"
-                className={
-                  activeLink === "contact"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("contacts")}
-              >
-                Contact
-              </Nav.Link>
-            </Nav>
-            <span className="navbar-text">
-              <div className="social-icon">
-              <a href="mailto:rahma.bilal15@gmail.com">
-                <img src={envelope} alt="Icon" />
+    <div>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <a className="navbar-brand" href="#">
+          Navbar
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item active">
+              <a className="nav-link" href="#">
+                Home <span className="sr-only">(current)</span>
               </a>
-              <a href="https://github.com/rahmabilal">
-                <img src={github} alt="Icon" />
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Link
               </a>
-              <a href="https://twitter.com">
-                <img src={twitter} alt="Icon" />
+            </li>
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
               </a>
-              <a href="https://linkedin.com/in/rahmabilal">
-                <img src={linkedin} alt="Icon" />
-              </a>
+              <div className="dropdown-menu">
+                <a className="dropdown-item" href="#">
+                  Action
+                </a>
+                <a className="dropdown-item" href="#">
+                  Another action
+                </a>
+                <div className="dropdown-divider"></div>
+                <a className="dropdown-item" href="#">
+                  Something else here
+                </a>
               </div>
-            </span>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    </Router>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   );
 };
