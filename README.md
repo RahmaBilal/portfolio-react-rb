@@ -45,9 +45,11 @@ Steps to follow for installation:
 
 <img width="1440" alt="Screenshot 2022-12-14 at 22 20 28" src="https://user-images.githubusercontent.com/108250116/207728260-a2964ca8-eadf-44dc-bb92-f22ce8cac31e.png">
 
+---
+
 ## Links
 
-Deployed link: https://rahmabilal.github.io/portfolio-react-rb/
+Deployed link: 
 
 GitHub repo: https://github.com/RahmaBilal/portfolio-react-rb
 
