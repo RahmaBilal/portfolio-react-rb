@@ -13,10 +13,14 @@ export const About = () => {
                 <Row className="align-items-center">
                   <Col xs={12} md={6} xl={7}>
                     <p>
-                      My name is Rahma Bilal. I am an aspiring{" "}
+                      My name is Rahma Bilal. I am a newly qualified{" "}
                       <b>Full-Stack Developer Web Developer</b> who decided to
-                      tak a different route than what I had originally planned
-                      after finishing University. 
+                      take a different route than what I had originally planned
+                      after finishing University. Prior to this, I had studied
+                      Criminology with Law at Coventry University. Decided to
+                      pursue a different career and now I have a certificate
+                      from the University of Birmingham for Full Stack Web
+                      Development.
                     </p>
                   </Col>
                   <Col xs={12} md={6} xl={5}>
@@ -24,7 +28,7 @@ export const About = () => {
                       <img src={image} alt="My img" />
                     </div>
                     <a href="https://docs.google.com/document/d/1G74p7fZJdw8e69fMK6v14LIKXZd7PtLUwyOEY8u_d-E/edit?usp=sharing">
-                      Download Resume
+                      Resume
                     </a>
                   </Col>
                 </Row>
