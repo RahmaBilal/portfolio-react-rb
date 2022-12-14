@@ -49,8 +49,8 @@ Steps to follow for installation:
 
 ## Links
 
-Deployed link: 
-
+Deployed link: https://rahmabilal.github.io/portfolio-react-rb/
+<br>
 GitHub repo: https://github.com/RahmaBilal/portfolio-react-rb
 
 ---
