@@ -11,6 +11,7 @@ This portfolio is a react portfolio that was bootstrapped with [Create React App
 - [Description](#description)
 - [User Story](#user-story)
 - [Installation](#installation)
+- [Screenshots](#screenshots)
 - [Links](#links)
 - [Questions](#questions)
 
@@ -38,9 +39,17 @@ Steps to follow for installation:
 
 ---
 
+## Screenshots
+
+<img width="1440" alt="Screenshot 2022-12-14 at 22 20 14" src="https://user-images.githubusercontent.com/108250116/207728243-7392d8fc-71e1-4cc5-b35e-52add8467bec.png">
+
+<img width="1440" alt="Screenshot 2022-12-14 at 22 20 28" src="https://user-images.githubusercontent.com/108250116/207728260-a2964ca8-eadf-44dc-bb92-f22ce8cac31e.png">
+
+---
+
 ## Links
 
-Deployed link: https://rahmabilal.github.io/portfolio-react-rb/
+Deployed link: 
 
 GitHub repo: https://github.com/RahmaBilal/portfolio-react-rb
 
