@@ -55,8 +55,8 @@ export const Projects = () => {
           <Col size={12}>
             <h2>Portfolio</h2>
             <p>
-              Featured below are some of my projects. Click on them for a more
-              detailed look.
+              Featured below are some of the projects I've worked on. Hover over them for a more
+              detailed look and access to the links.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Tab.Content id="slideInUp">
