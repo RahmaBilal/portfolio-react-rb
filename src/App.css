@@ -37,6 +37,22 @@ img {
   width: 100%;
   height: auto;
 }
+/* 
+.image1 {
+  height: 500px;
+  width: 600px;
+}
+
+.image2 {
+  height: 350px;
+  width: 350px;
+}
+
+
+.image3 {
+height: 500px;
+width: 500px;
+} */
 
 @media (min-width: 1700px) {
   main .container {
