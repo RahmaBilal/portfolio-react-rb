@@ -4,14 +4,15 @@ import envelope from "../assets/images/envelope.svg";
 import github from "../assets/images/github.svg";
 import twitter from "../assets/images/twitter.svg";
 import linkedin from "../assets/images/linkedin.svg";
-import logo from "../assets/images/rb-logo.png"
+import logo from "../assets/images/rb-logo.png";
 
 export const Navbar = () => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="#">
-           RB
+          {/* logo */}
+          <images src={logo} class="image3" styles="width:50px;height:60px;" />
         </a>
         <button
           className="navbar-toggler"
@@ -33,17 +34,17 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#about-me">
                 About Me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#projects">
                 Portfolio
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contacts">
                 Contact
               </a>
             </li>
