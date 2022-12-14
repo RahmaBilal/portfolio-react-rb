@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import opening from "../assets/images/front-page-art.png";
+import opening from "../assets/images/art-for-webpage.png";
 
 export const Banner = () => {
   return (
