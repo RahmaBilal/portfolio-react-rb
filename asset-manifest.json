@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.e91613f0.css",
+    "main.js": "./static/js/main.06669438.js",
+    "static/js/787.273e1bab.chunk.js": "./static/js/787.273e1bab.chunk.js",
+    "static/media/Project1.png": "./static/media/Project1.159ff990f2bbe68a49de.png",
+    "static/media/Project5.png": "./static/media/Project5.d4a14907ebf9581f8291.png",
+    "static/media/Project6.png": "./static/media/Project6.94f8bb00b8260948b716.png",
+    "static/media/Project2.png": "./static/media/Project2.c97b29358fa3ae690b69.png",
+    "static/media/my-image.jpeg": "./static/media/my-image.7ba45cb21a98097b4188.jpeg",
+    "static/media/Project3.png": "./static/media/Project3.ef038a8faad638db7465.png",
+    "static/media/front-page-art.png": "./static/media/front-page-art.2adf0e8a97c48642fe80.png",
+    "static/media/Project4.png": "./static/media/Project4.788b5de963dd934cc6be.png",
+    "static/media/art-for-webpage.png": "./static/media/art-for-webpage.9cbeb161643a5a203668.png",
+    "static/media/rb-logo.png": "./static/media/rb-logo.ecb3aecc8a5493c1fc3f.png",
+    "static/media/webpage-background.jpg": "./static/media/webpage-background.6d5cc668894309fd2c2c.jpg",
+    "static/media/linkedin.svg": "./static/media/linkedin.f5278e353af0fa44aa56e41e74a4b596.svg",
+    "index.html": "./index.html",
+    "static/media/twitter.svg": "./static/media/twitter.e3fb326823f919309b1eea20a6bfdd15.svg",
+    "static/media/envelope.svg": "./static/media/envelope.a1d7a8ae85ab870ac0bd70c9479f8971.svg",
+    "static/media/github.svg": "./static/media/github.1ba3cd4d5be2bed39ba9b547b54b1f97.svg",
+    "main.e91613f0.css.map": "./static/css/main.e91613f0.css.map",
+    "main.06669438.js.map": "./static/js/main.06669438.js.map",
+    "787.273e1bab.chunk.js.map": "./static/js/787.273e1bab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e91613f0.css",
+    "static/js/main.06669438.js"
+  ]
+}
