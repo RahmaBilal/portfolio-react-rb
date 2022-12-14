@@ -23,7 +23,7 @@ export const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={5}>
             <div>
-              <img src={opening} alt="Header Img" />
+              <img src={opening} class="image1" alt="Header Img" />
             </div>
           </Col>
         </Row>
