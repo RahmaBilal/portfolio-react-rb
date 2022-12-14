@@ -25,8 +25,8 @@ export const Projects = () => {
     {
       title: "Code Quiz",
       imgUrl: Project3,
-      deployed: "https://github.com/RahmaBilal/Timed-quiz",
-      github: "https://rahmabilal.github.io/Timed-quiz/",
+      github: "https://github.com/RahmaBilal/Timed-quiz",
+      deployed: "https://rahmabilal.github.io/Timed-quiz/",
     },
     {
       title: "Note Taker",
