@@ -3,7 +3,7 @@ import image from "../assets/images/my-image.jpeg";
 
 export const About = () => {
   return (
-    <section className="about-me" id="skills">
+    <section className="about-me" id="about-me">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -25,7 +25,7 @@ export const About = () => {
                   </Col>
                   <Col xs={12} md={6} xl={5}>
                     <div>
-                      <img src={image} alt="My img" />
+                      <img src={image} class="image2"  alt="My img" />
                     </div>
                     <a href="https://docs.google.com/document/d/1G74p7fZJdw8e69fMK6v14LIKXZd7PtLUwyOEY8u_d-E/edit?usp=sharing">
                       Resume
